@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".account.LoginScreen">
+
+    <!-- Rectangle Inside -->
+    <View
+        android:id="@+id/rectangle_i"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle_i" />
+
+    <!-- Rectangle Outside -->
+    <View
+        android:id="@+id/rectangle_o"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/rectangle_o"
+        android:layout_alignParentStart="true" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
+
+
+    <!-- USERNAME --> <!---EMAIL-->
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="325dp"
+        android:hint="@string/login_email"
+        android:background="@drawable/login_button"
+        android:textAppearance="@style/username"
+        android:gravity="center_horizontal|center_vertical"
+        android:autofillHints="@string/login_email"
+        android:inputType="textEmailAddress" />
+
+    <!-- PASSWORD -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="395dp"
+        android:hint="@string/password"
+        android:textAppearance="@style/password"
+        android:inputType="textPassword"
+        android:background="@drawable/login_button"
+        android:gravity="center_horizontal|center_vertical"
+        android:autofillHints="@string/password" />
+
+    <!-- SIGN IN -->
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="462dp"
+        android:text="@string/sign_in"
+        android:textAppearance="@style/sign_in"
+        android:background="@drawable/rectangle_7"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!-- Forgot Password ? -->
+    <Button
+        android:id="@+id/forgot_pass"
+        android:layout_width="126dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="512dp"
+        android:text="@string/forgot_pass"
+        android:textAppearance="@style/forgot_pass"
+        android:background="@drawable/track"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <Button
+        android:id="@+id/sign_up_small"
+        android:layout_width="126dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/track"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/sign_up_small"
+        android:textAppearance="@style/login_small" />
+
+
+</RelativeLayout>

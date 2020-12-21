@@ -1,0 +1,168 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Please_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#30108C</item>
+    </style>
+
+    <style name="select_photo_register">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ez_shipping">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#30108C</item>
+    </style>
+
+    <style name="login">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#30108C</item>
+    </style>
+
+    <style name="login_email">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#30108C</item>
+    </style>
+
+    <style name="sign_up">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="username">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#DECBCB</item>
+    </style>
+
+    <style name="password">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#DECBCB</item>
+    </style>
+
+    <style name="sign_in">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="forgot_pass">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="login_small">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="already_hav">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="track_trace">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#3F51B5</item>
+    </style>
+
+    <style name="volumetric_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#1AA8E5</item>
+    </style>
+
+    <style name="volumetric">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EEF6F9</item>
+    </style>
+
+    <style name="recipient_n">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#26000000</item>
+    </style>
+
+    <style name="postage_ser">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#40000000</item>
+    </style>
+
+    <style name="successful">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#1AA8E5</item>
+    </style>
+
+    <style name="your_item_h">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EEF6F9</item>
+    </style>
+
+    <style name="here_is_you">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="address">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#30108C</item>
+    </style>
+
+    <style name="history">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#30108C</item>
+    </style>
+
+    <style name="name">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#26000000</item>
+    </style>
+
+    <style name="current_pas">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#26000000</item>
+    </style>
+
+    <style name="save">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F7D9D9</item>
+    </style>
+
+    <style name="length_cm_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#26000000</item>
+    </style>
+
+    <style name="submit">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="track_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="recipient_name">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="history_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#D4D0D0</item>
+    </style>
+
+    <!-- This style is for the splash screen -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

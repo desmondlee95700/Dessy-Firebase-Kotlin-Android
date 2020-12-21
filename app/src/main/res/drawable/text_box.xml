@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/text_box.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="309dp"
+    android:height="40dp"
+    android:viewportWidth="309"
+    android:viewportHeight="40"
+    tools:ignore="VectorRaster">
+
+    <group>
+
+        <clip-path
+            android:pathData="M8 0H301C305.418 0 309 3.58172 309 8V32C309 36.4183 305.418 40 301 40H8C3.58172 40 0 36.4183 0 32V8C0 3.58172 3.58172 0 8 0Z"
+            />
+
+        <path
+            android:pathData="M0 0V40H309V0"
+            android:fillColor="#DDD"
+            />
+
+    </group>
+
+</vector>

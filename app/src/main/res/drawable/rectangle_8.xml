@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/rectangle_8.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="165dp"
+    android:height="19dp"
+    android:viewportWidth="165"
+    android:viewportHeight="19"
+    >
+
+    <group>
+
+
+
+        <path
+            android:pathData="M0 0V19H165V0"
+            android:fillColor="#DDD"
+            />
+
+    </group>
+
+</vector>

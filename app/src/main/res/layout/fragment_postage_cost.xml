@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication3.postage.PostageCostFragment">
+
+
+    <Button
+        android:id="@+id/postage_show"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/postage_show"
+        android:textAppearance="@style/volumetric_"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <TextView
+        android:id="@+id/volumetric"
+        android:layout_width="208dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/volumetric"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/volumetric"
+        android:textAppearance="@style/volumetric" />
+
+    <EditText
+        android:id="@+id/input_volume"
+        android:layout_width="250dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:hint="@string/input_volume"
+        android:autofillHints="@string/input_volume"
+        android:background="@drawable/length"
+        android:textAppearance="@style/recipient_n"
+        android:inputType="numberDecimal"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!-- POSTAGE COST -->
+    <TextView
+        android:id="@+id/cost_result"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/cost_result"
+        android:textAppearance="@style/volumetric"
+        android:background="@drawable/postage_button"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    <TextView
+        android:id="@+id/length_cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/width_cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/height_cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storecitytown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storestreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storepostcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+<!--    <TextView
+        android:id="@+id/cost_result"
+        android:layout_width="317dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp" />-->
+       <!-- android:text="Result"/>-->
+    <!-- Rect Browse -->
+    <View
+        android:id="@+id/rect_browse"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/rect_postage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="1dp" />
+    <TextView
+        android:layout_width="308dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:text="SELECT POSTAGE SERVICE"
+        android:textAppearance="@style/sign_in"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/spinner"
+        android:textAppearance="@style/sign_in"
+        android:layout_marginTop="300dp"/>
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="208dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:textAppearance="@style/volumetric"
+        android:background="@drawable/postage_button"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <Button
+        android:id="@+id/saveToTrack"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="430dp"
+        android:text="@string/submit"
+        android:textAppearance="@style/submit"
+        android:background="@drawable/save_button"
+        android:gravity="center_horizontal|center_vertical" />
+
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication3.profile.ProfileFragment">
+
+    <!-- Rect Browse -->
+
+    <View
+        android:id="@+id/rect_browse"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/rect_profile_set" />
+
+    <!-- Ellipse 1 -->
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ic_boy" />
+
+    <!-- Name -->
+
+    <ProgressBar
+        android:id="@+id/progressbar_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/image_view"
+        android:layout_alignLeft="@+id/image_view"
+        android:layout_alignTop="@+id/image_view"
+        android:layout_alignEnd="@+id/image_view"
+        android:layout_alignRight="@+id/image_view"
+        android:layout_alignBottom="@+id/image_view"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/email_id"
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:drawableStart="@drawable/ic_email_black"
+        android:layout_marginTop="142dp"
+        android:text="@string/email_id"
+        android:textAppearance="@style/sign_in"
+        android:background="@drawable/name_button"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <TextView
+        android:id="@+id/text_not_verified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/email_id"
+        android:layout_alignEnd="@+id/email_id"
+        android:layout_alignBottom="@+id/email_id"
+        android:layout_gravity="right"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="-26dp"
+        android:text="Not Verified (Click to Verify)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:drawableStart="@drawable/ic_profile"
+        android:text="@string/name"
+        android:textAppearance="@style/name"
+        android:background="@drawable/name_button"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!--TEXT PHONE-->
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:drawableStart="@drawable/ic_contactus"
+        android:text="@string/text_phone"
+        android:textAppearance="@style/sign_in"
+        android:background="@drawable/name_button"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!-- SAVE -->
+
+    <ProgressBar
+        android:id="@+id/progressbar_pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/save"
+        android:layout_alignLeft="@+id/save"
+        android:layout_alignTop="@+id/save"
+        android:layout_alignEnd="@+id/save"
+        android:layout_alignRight="@+id/save"
+        android:layout_alignBottom="@+id/save"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="-79dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="86dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:text="@string/save"
+        android:textAppearance="@style/save"
+        android:background="@drawable/save_button"
+        android:gravity="center_horizontal|center_vertical" />
+
+</RelativeLayout>

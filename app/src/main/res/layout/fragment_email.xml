@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication3.contactus.EmailFragment">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Got questions? Shoot us an email and we' ll get back to you in a jiffy!"
+        android:textAlignment="center"
+        android:textColor="#3244a8"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/recipientEt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/save_draft"
+        android:text=" ezshipping@example.com"
+        android:gravity="center_horizontal|center_vertical"
+        android:textAppearance="@style/sign_in"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/subjectEt"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="#4ABDEE"
+        android:hint=" SUBJECT"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/messageEt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:background="#4ABDEE"
+        android:gravity="top"
+        android:hint="Enter Your Message Here"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/sendEmailBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:background="#021269"
+        android:text="SEND EMAIL"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

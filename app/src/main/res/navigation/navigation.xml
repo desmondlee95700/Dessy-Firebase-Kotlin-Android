@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication3.home.HomeFragment"
+        android:label="Ez Shipping"
+        tools:layout="@layout/fragment_home" />
+<!--
+    <fragment
+        android:id="@+id/track_trace"
+        android:name="com.example.myapplication3.track.TrackTrace"
+        android:label="Track Trace"
+        tools:layout="@layout/track_trace" />-->
+    <fragment
+        android:id="@+id/verifyPhoneFragment"
+        android:name="com.example.myapplication3.profile.VerifyPhoneFragment"
+        android:label="Verify Phone"
+        tools:layout="@layout/fragment_verify_phone">
+        <action
+            android:id="@+id/actionPhoneVerified"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.myapplication3.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/actionVerifyPhone"
+            app:destination="@id/verifyPhoneFragment" />
+        <action
+            android:id="@+id/actionUpdateEmail"
+            app:destination="@id/updateEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateEmailFragment"
+        android:name="com.example.myapplication3.profile.UpdateEmailFragment"
+        android:label="Update Email"
+        tools:layout="@layout/fragment_update_email" >
+        <action
+            android:id="@+id/actionEmailUpdated"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postageFragment"
+        android:name="com.example.myapplication3.postage.PostageFragment"
+        android:label="Postage Calculator"
+        tools:layout="@layout/fragment_postage" >
+        <action
+            android:id="@+id/actionSubmitVolumetric"
+            app:destination="@id/postageInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postageInfoFragment"
+        android:name="com.example.myapplication3.postage.PostageInfoFragment"
+        android:label="Postage Info"
+        tools:layout="@layout/fragment_postage_info" >
+        <action
+            android:id="@+id/actionPostageCost"
+            app:destination="@id/postageCostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postageCostFragment"
+        android:name="com.example.myapplication3.postage.PostageCostFragment"
+        android:label="Postage Cost"
+        tools:layout="@layout/fragment_postage_cost" >
+        <action
+            android:id="@+id/actionPostageConfirm"
+            app:destination="@id/postageConfirmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postageConfirmFragment"
+        android:name="com.example.myapplication3.postage.PostageConfirmFragment"
+        android:label="Postage Confirm" >
+        <action
+            android:id="@+id/actionToPayment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.myapplication3.map.MapFragment"
+        android:label="Find Us"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.example.myapplication3.contactus.ContactUsFragment"
+        android:label="Contact Us">
+        <action
+            android:id="@+id/actionToSendEmail"
+            app:destination="@id/emailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailFragment"
+        android:name="com.example.myapplication3.contactus.EmailFragment"
+        android:label="Send Email"
+        tools:layout="@layout/fragment_email" />
+    <fragment
+        android:id="@+id/rateUsFragment"
+        android:name="com.example.myapplication3.rating.RateUsFragment"
+        android:label="Rate Us "
+        tools:layout="@layout/fragment_rate_us" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.myapplication3.edit.EditFragment"
+        android:label="Edit Postage"
+        tools:layout="@layout/fragment_edit" >
+        <action
+            android:id="@+id/actionEditVolumetric"
+            app:destination="@id/editVolumetricFragment" />
+        <action
+            android:id="@+id/actionToEditInfoDetail"
+            app:destination="@id/editInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editVolumetricFragment"
+        android:name="com.example.myapplication3.edit.EditVolumetricFragment"
+        android:label=" Edit Volumetric (KG)"
+        tools:layout="@layout/fragment_edit_volumetric" >
+        <action
+            android:id="@+id/actionToEditCost"
+            app:destination="@id/editCostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCostFragment"
+        android:name="com.example.myapplication3.edit.EditCostFragment"
+        android:label="Edit Postage Cost" >
+        <action
+            android:id="@+id/actionBackToEdit"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editInfoFragment"
+        android:name="com.example.myapplication3.edit.EditInfoFragment"
+        android:label="Edit Info Details">
+        <action
+            android:id="@+id/actionBackEdit2"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.myapplication3.payment.PaymentFragment"
+        android:label="Payment Details"
+        tools:layout="@layout/fragment_payment">
+        <action
+            android:id="@+id/actionPaymentHome"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+
+</navigation>

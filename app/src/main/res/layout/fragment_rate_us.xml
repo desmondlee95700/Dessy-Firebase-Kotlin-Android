@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication3.rating.RateUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/Please_"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/Please_"
+        android:gravity="center"
+        android:text="@string/Please_"/>
+
+    <RatingBar
+        android:id="@+id/ratingStar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/tvRatingScale"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/Please_"
+        android:gravity="center"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRatingNumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/feedbacktext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:lines="5"
+        android:hint="Drop Your Suggestions Here"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/submitFeedback"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="#021269"
+        android:text="Send feedback"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

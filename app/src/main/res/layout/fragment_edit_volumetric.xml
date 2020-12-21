@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication3.edit.EditVolumetricFragment">
+
+
+    <!-- LENGTH (CM) -->
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="CALCULATE YOUR NEW VOLUMETRIC WEIGHT (KG)"
+        android:textSize="15sp"
+        android:textAppearance="@style/successful"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/package_dimensions" />
+
+    <EditText
+        android:id="@+id/lengthcm"
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:hint="@string/length_cm_"
+        android:textAppearance="@style/length_cm_"
+        android:background="@drawable/width"
+        android:inputType="number"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <!-- WIDTH (CM) -->
+    <EditText
+        android:id="@+id/widthcm"
+        android:layout_width="334dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:hint="@string/width_cm_"
+        android:textAppearance="@style/length_cm_"
+        android:background="@drawable/width"
+        android:inputType="number"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/editvolumetricresult"
+        android:layout_width="317dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="365dp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storecost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/storevolumetric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storeservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storereference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/storeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storecitytown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storestreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/storepostcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <!-- HEIGHT (CM) -->
+    <EditText
+        android:id="@+id/heightcm"
+        android:layout_width="334dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:hint="@string/height_cm_"
+        android:textAppearance="@style/length_cm_"
+        android:background="@drawable/width"
+        android:inputType="number"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <!-- Result -->
+    <TextView
+        android:id="@+id/volumetric_result"
+        android:layout_width="317dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="365dp"
+        android:visibility="invisible" />
+
+
+    <!-- SUBMIT -->
+    <Button
+        android:id="@+id/count"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="411dp"
+        android:text="TO EDIT COST"
+        android:textAppearance="@style/submit"
+        android:background="@drawable/save_draft"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+</RelativeLayout>

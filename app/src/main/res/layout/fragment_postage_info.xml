@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication3.postage.PostageInfoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!-- VOLUMETRIC (CM^3) -->
+        <TextView
+            android:id="@+id/length_cm_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+        <TextView
+            android:id="@+id/width_cm_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+        <TextView
+            android:id="@+id/height_cm_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/volumetric_"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:text="@string/volumetric_"
+        android:textAppearance="@style/volumetric_"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!-- VOLUMETRIC (CM^3) -->
+    <TextView
+        android:id="@+id/volumetric"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/volumetric"
+        android:textSize="15sp"
+        android:background="@drawable/volumetric"
+        android:textAppearance="@style/volumetric"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <View
+        android:id="@+id/rect_browse"
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rect_view" />
+
+    <!-- RECIPIENT NAME -->
+    <TextView
+        android:id="@+id/showinfo"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/showinfo"
+        android:textAppearance="@style/sign_in"
+        android:gravity="center_horizontal|center_vertical" />
+
+
+    <EditText
+        android:id="@+id/recipient_n"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:hint="@string/recipient_n"
+        android:autofillHints="@string/recipient_n"
+        android:textAppearance="@style/recipient_n"
+        android:background="@drawable/recipient"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!--PHONE NUMBER-->
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:hint="@string/phone_number"
+        android:autofillHints="@string/phone_number"
+        android:inputType="phone"
+        android:textAppearance="@style/recipient_n"
+        android:background="@drawable/recipient"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!-- STREET ADDRESS -->
+    <EditText
+        android:id="@+id/street_address"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:hint="@string/street_address"
+        android:autofillHints="@string/street_address"
+        android:background="@drawable/recipient"
+        android:textAppearance="@style/recipient_n"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!-- CITY/TOWN -->
+    <EditText
+        android:id="@+id/city_town"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="315dp"
+        android:hint="@string/city_town"
+        android:autofillHints="@string/city_town"
+        android:textAppearance="@style/recipient_n"
+        android:background="@drawable/recipient"
+        android:gravity="center_horizontal|center_vertical" />
+
+
+    <EditText
+        android:id="@+id/stateinfo"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="370dp"
+        android:hint="@string/stateinfo"
+        android:autofillHints="@string/stateinfo"
+        android:textAppearance="@style/recipient_n"
+        android:background="@drawable/recipient"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <!-- POSTCODE -->
+    <EditText
+        android:id="@+id/postcodeinfo"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="425dp"
+        android:hint="@string/postcodeinfo"
+        android:autofillHints="@string/postcodeinfo"
+        android:inputType="number"
+        android:textAppearance="@style/recipient_n"
+        android:background="@drawable/recipient"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <Button
+        android:id="@+id/pickTimeBtn"
+        android:text="@string/pick_time"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/rectangle_8"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/sign_in"
+        android:autofillHints="TIME"
+        android:hint="TIME"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/pickDateBtn"
+        android:text="@string/pick_date"
+        android:background="@drawable/rectangle_8"
+        android:layout_marginTop="580dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:autofillHints="DATE"
+        android:hint="DATE"
+        android:textSize="30sp"
+        android:layout_marginTop="630dp"
+        android:textAppearance="@style/sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- SAVE AS DRAFT -->
+    <Button
+        android:id="@+id/save_as_dra"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="690dp"
+        android:text="@string/submit"
+        android:textAppearance="@style/sign_in"
+        android:background="@drawable/save_draft"
+        android:gravity="center_horizontal|center_vertical" />
+
+    </RelativeLayout>
+</ScrollView>

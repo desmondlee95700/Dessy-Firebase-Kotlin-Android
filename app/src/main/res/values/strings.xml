@@ -1,0 +1,120 @@
+<resources>
+
+    <string name="app_name">EZ Shipping</string>
+    <string name="splash">WELCOME TO EZ SHIPPING</string>
+    <string name="ez_shipping">EZ SHIPPING</string>
+    <string name="login">LOGIN</string>
+    <string name="login_email">EMAIL ADDRESS</string>
+    <string name="login_small">Back To Login</string>
+    <string name="sign_up_small">No Account Yet ?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="logo_home">logo_home</string>
+    <string name="logo">LOGO</string>
+    <string name="account_id">Account ID</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="email">EMAIL ADDRESS</string>
+    <string name="reset_email">EMAIL ADDRESS</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="register">REGISTER</string>
+    <string name="already_hav">Already Have an account? >></string>
+    <string name="reset">RESET</string>
+
+
+    <string name="input_volume">Enter Your Volumetric (KG)</string>
+    <string name="postage_show2">Show</string>
+    <string name="track_trace">TRACK AND TRACE</string>
+    <string name="postage_cal">POSTAGE CALCULATOR</string>
+    <string name="volumetric_">VOLUMETRIC(KG) INFO</string>
+    <string name="showinfo">ENTER INFO DETAILS</string>
+    <string name="weight_kg_">WEIGHT (KG)</string>
+    <string name="volumetric">VOLUMETRIC (KG)</string>
+    <string name="recipient_n">SENDER NAME</string>
+    <string name="street_address">STREET ADDRESS</string>
+    <string name="city_town">CITY/TOWN</string>
+    <string name="stateinfo">STATE</string>
+    <string name="postcodeinfo">POSTCODE</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="pick_time">PICK TIME</string>
+    <string name="time">TIME</string>
+    <string name="pick_date">PICK DATE</string>
+    <string name="date">DATE</string>
+    <string name="save_as_dra">SAVE AS DRAFT</string>
+    <string name="postage_ser">POSTAGE SERVICE</string>
+    <string name="qr_code">QR_CODE</string>
+    <string name="successful">SUCCESSFUL !</string>
+    <string name="your_item_h">Your Item Has Been Transferred successfully to </string>
+    <string name="here_is_you">Here is your tracking number:\u000D\n\n(TRACKING NUMBER)</string>
+    <string name="name">NAME</string>
+    <string name="email_id">EMAIL ID</string>
+    <string name="address">Address</string>
+    <string name="notification">Notification</string>
+    <string name="history">HISTORY</string>
+    <string name="profile_set">PROFILE SETTING</string>
+    <string name="current_pas">CURRENT PASSWORD</string>
+    <string name="new_password">NEW PASSWORD</string>
+    <string name="confirm_pas">CONFIRM PASSWORD</string>
+    <string name="save">SAVE</string>
+    <string name="icon_address">ADDRESS</string>
+    <string name="user_email">Email ID</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="select_photo_register">SELECT PHOTO</string>
+    <string name="length_cm_">LENGTH (CM)</string>
+    <string name="width_cm_">WIDTH (CM)</string>
+    <string name="height_cm_">HEIGHT (CM)</string>
+    <string name="submit">SUBMIT</string>
+    <string name="track_">TRACK :</string>
+    <string name="enter_refer">ENTER REFERENCE ID</string>
+    <string name="recipient_name">RECIPIENT NAME</string>
+    <string name="send">SEND</string>
+    <string name="edit">EDIT</string>
+    <string name="date_time">DATE/TIME</string>
+    <string name="process">PROCESS</string>
+    <string name="location">LOCATION</string>
+    <string name="reference_id">REFERENCE ID</string>
+    <string name="sender">SENDER</string>
+    <string name="status">STATUS</string>
+
+    <string name="text_phone">PHONE NUMBER</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="spinner">Select Postage Service</string>
+
+    <string name="postage_show"> SHOW POSTAGE COST 1KG/RM0.80</string>
+    <string name="cost_result">POSTAGE COST</string>
+    <string name="generatenumber">Generate Tracking Number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="postage_calculator">Postage Calculator</string>
+    <string name="track_and_trace">Track and Trace</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="phone">phone</string>
+    <string name="result">Result</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="Please_">Ez Shipping:
+    \n Please Rate Our Service.
+    \n We hope to hear more from you.</string>
+    <string name="important">IMPORTANT !</string>
+    <string name="infovolumetric">INFORMATION ON HOW TO CALCULATE VOLUMETRIC WEIGHT (KG)</string>
+    <string name="vtext">The volumetric divisor has changed to 5000 and applies to Ez Shipping\'s Same Day \n
+    Time Definite and Day Definite products as per the below formula.</string>
+    <string name="vformula"> Formula : \n
+    Length * Width * height / 5000 per piece in the shipment</string>
+    <string name="vpostage">Postage Cost Calculation :\n
+    1KG / RM0.80 </string>
+    <string name="email_contact_us"> Email:
+    \n ezshpping@example.com
+    </string>
+    <string name="phone_number_contactus"> Phone number:
+    \n 03-4145 0123</string>
+    <string name="website_contactus"> Website:
+    \n www.ezshipping.com</string>
+    <string name="location_contactus"> Address:
+    \n Kampus Utama, Jalan Genting Kelang, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</string>
+
+</resources>

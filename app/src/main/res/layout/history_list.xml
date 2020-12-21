@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".track.TrackTraceList">
+
+    <!-- HISTORY -->
+    <TextView
+        android:id="@+id/history_"
+        android:layout_width="301dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:text="@string/history"
+        android:textAppearance="@style/history_"
+        android:gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp" />
+
+    <!-- SEARCH BAR -->
+    <View
+        android:id="@+id/search_bar"
+        android:layout_width="301dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/search_bar"
+        />
+
+    <!-- DATE/TIME -->
+    <TextView
+        android:id="@+id/date_time"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="174dp"
+        android:text="@string/date_time"
+        android:textAppearance="@style/recipient_name"
+        android:background="@drawable/table_send"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp" />
+
+    <!-- SENDER -->
+    <TextView
+        android:id="@+id/sender"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="174dp"
+        android:text="@string/sender"
+        android:textAppearance="@style/recipient_name"
+        android:background="@drawable/table_recipient"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="128dp" />
+
+    <!-- STATUS -->
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="267dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="174dp"
+        android:text="@string/status"
+        android:textAppearance="@style/recipient_name"
+        android:background="@drawable/table_recipient"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="267dp" />
+
+    <!-- Table 4 -->
+    <View
+        android:id="@+id/table_date_time"
+        android:layout_width="125dp"
+        android:layout_height= "347dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/table_list" />
+
+    <!-- Table 5 -->
+    <View
+        android:id="@+id/table_process"
+        android:layout_width="140dp"
+        android:layout_height="347dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/table_list"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="128dp" />
+
+
+
+    <!-- Table 3 -->
+    <View
+        android:id="@+id/table_location"
+        android:layout_width="139dp"
+        android:layout_height="347dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="267dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/table_list"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="267dp" />
+
+    <!-- SEARCH_ICON -->
+    <ImageView
+        android:id="@+id/search_icon"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="267dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="310dp" />
+
+</RelativeLayout>

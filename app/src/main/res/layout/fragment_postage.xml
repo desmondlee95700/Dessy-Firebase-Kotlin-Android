@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication3.postage.PostageFragment">
+
+
+    <!-- LENGTH (CM) -->
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="CALCULATE THE VOLUMETRIC WEIGHT (KG)"
+        android:textSize="15sp"
+        android:textAppearance="@style/successful"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/package_dimensions" />
+
+    <EditText
+        android:id="@+id/length_cm_"
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:hint="@string/length_cm_"
+        android:textAppearance="@style/length_cm_"
+        android:background="@drawable/width"
+        android:inputType="number"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <!-- WIDTH (CM) -->
+    <EditText
+        android:id="@+id/width_cm_"
+        android:layout_width="334dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:hint="@string/width_cm_"
+        android:textAppearance="@style/length_cm_"
+        android:background="@drawable/width"
+        android:inputType="number"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <!-- HEIGHT (CM) -->
+    <EditText
+        android:id="@+id/height_cm_"
+        android:layout_width="334dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:hint="@string/height_cm_"
+        android:textAppearance="@style/length_cm_"
+        android:background="@drawable/width"
+        android:inputType="number"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <!-- Result -->
+    <TextView
+        android:id="@+id/volumetric_result"
+        android:layout_width="317dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="365dp"
+        android:visibility="invisible" />
+
+
+    <!-- SUBMIT -->
+    <Button
+        android:id="@+id/count"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="411dp"
+        android:text="@string/submit"
+        android:textAppearance="@style/submit"
+        android:background="@drawable/save_draft"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postage.PostageList">
+
+    <!-- RECIPIENT NAME -->
+    <TextView
+        android:id="@+id/recipient_n"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:text="@string/recipient_name"
+        android:textAppearance="@style/recipient_name"
+        android:background="@drawable/table_recipient"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp" />
+
+    <!-- SEND -->
+    <TextView
+        android:id="@+id/send"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:text="@string/send"
+        android:textAppearance="@style/recipient_name"
+        android:background="@drawable/table_send"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="147dp" />
+
+    <!-- EDIT -->
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/table_edit"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/edit"
+        android:textAppearance="@style/recipient_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="276dp" />
+
+    <!-- Table 1 -->
+    <View
+        android:id="@+id/table_recipient"
+        android:layout_width="144dp"
+        android:layout_height="405dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/table_list"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp" />
+
+    <!-- Table 2 -->
+    <View
+        android:id="@+id/table_send"
+        android:layout_width="130dp"
+        android:layout_height="405dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/table_list"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="147dp" />
+
+    <!-- Table 3 -->
+    <View
+        android:id="@+id/table_edit"
+        android:layout_width="130dp"
+        android:layout_height="405dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="276dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/table_list"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="276dp" />
+
+</RelativeLayout>
