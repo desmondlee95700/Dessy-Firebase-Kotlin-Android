@@ -1,6 +1,5 @@
-# Firebase Kotlin Android Authentication & Realtime database
-CRUD Function with Firebase Authentication and Realtime database. 
-
+# Firebase Kotlin Android Authentication & Realtime 
+Full kotlin source Code
 
 **Take Note**
 Download your own google services.json. 
