@@ -1,4 +1,4 @@
-# Firebase Kotlin Android 
+# Firebase Kotlin Android Authentication & Realtime database
 CRUD Function with Firebase Authentication and Realtime database. 
 
 
